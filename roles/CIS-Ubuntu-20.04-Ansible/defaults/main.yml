@@ -15,7 +15,7 @@ set_bootloader_credentials: no
 ### Update the default bootloader user and password
 bootloader_credentials: { user: "root", password: "b00tl04derPwd" }
 # 1.5.3 Ensure authentication required for single user mode
-set_root_password: yes
+set_root_password: no
 root_password: r00tP4ssw0rd
 ## 1.8.1.4 Ensure permissions on /etc/motd are configured: allow for custom motd template (if the file doesn't exist, the
 ## default template in files/templates/motd.j2 will be used)
